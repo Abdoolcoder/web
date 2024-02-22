@@ -22,4 +22,4 @@ def submit_form():
 		write_to_csv(data)
 		return 'submited'
 	else:
-		return 'oopppsss'
+		return 'Object not submitted'
